@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Label } from 'ng2-charts';
+
+
 
 @Component({
   selector: 'app-grafica1',
@@ -8,9 +11,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Grafica1Component implements OnInit {
 
+
+public labels1: Label[] = ['asasa Sales', 'In-Store Sales', 'Mail-asas Sales'];
+  public labels2: Label[] = ['asasa qq', 'In-Store qq', 'Mail-asas qq'];
+  
+  data:number[] =[500,200,100]
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+ 
+
 
 }
