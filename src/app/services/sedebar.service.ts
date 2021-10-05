@@ -9,9 +9,14 @@ export class SedebarService {
       titulo: 'Dashboard',
       icono: 'mdi mdi-gauge',
       sudMenu: [
-        { titulo: 'Main', url: 'dashboard' },
-        { titulo: 'progressBar', url: 'progress' },
-        { titulo: 'Grafica', url: 'grafica1' },
+        { titulo: 'Main', url: 'dashboard', data: { titulo: 'Dashboard' } },
+        {
+          titulo: 'progressBar',
+          url: 'progress',
+          data: { titulo: 'Progress' },
+        },
+        { titulo: 'Grafica', url: 'grafica1', data: { titulo: 'Grafica' } },
+        { titulo: 'Promesas', url: 'promesas', data: { titulo: 'Promesas' } },
       ],
     },
   ];
