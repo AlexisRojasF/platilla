@@ -12,9 +12,9 @@ export class DonaComponent implements OnInit {
   @Input() titulo: string = '';
   // Doughnut
   @Input('labels') doughnutChartLabels: Label[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-  @Input() data = [10, 20, 30];
-  public doughnutChartData: MultiDataSet = [
-   this.data,
+  
+ @Input('data')doughnutChartData: MultiDataSet = [
+    [350, 450, 100],
 
   ];
 

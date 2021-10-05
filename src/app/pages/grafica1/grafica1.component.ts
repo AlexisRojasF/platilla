@@ -15,7 +15,7 @@ export class Grafica1Component implements OnInit {
 public labels1: Label[] = ['asasa Sales', 'In-Store Sales', 'Mail-asas Sales'];
   public labels2: Label[] = ['asasa qq', 'In-Store qq', 'Mail-asas qq'];
   
-  data:number[] =[500,200,100]
+  data:any[] =[500,200,100]
 
   constructor() { }
 
